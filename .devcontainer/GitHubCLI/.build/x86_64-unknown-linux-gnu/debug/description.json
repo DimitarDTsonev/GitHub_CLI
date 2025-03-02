@@ -1,0 +1,1079 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.xctest",
+      "packagePath" : "/workspaces/swift-3/.devcontainer/GitHubCLI",
+      "productName" : "GitHubCLIPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "GitHubCLIPackageDiscoveredTests"
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.GitHubCLI-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/bin/swiftc",
+      "fileList" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/sources",
+      "importPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/BaseCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ExitCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/HelpCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ListFilesCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ListRepositoriesCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ListStarredReposCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/SearchUserCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ViewFileCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Core/APIError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Core/GitHubAPI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Core/GitHubService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/GitHubFile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/GitHubRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/GitHubUser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/StarredRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Utils/Strings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/swift-version-24593BA9C3E375BF.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "GitHubCLI",
+      "moduleOutputPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules/GitHubCLI.swiftmodule",
+      "objects" : [
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/BaseCommand.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ExitCommand.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/HelpCommand.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ListFilesCommand.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ListRepositoriesCommand.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ListStarredReposCommand.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/SearchUserCommand.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ViewFileCommand.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/APIError.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubAPI.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubService.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubFile.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubRepository.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubUser.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/StarredRepository.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/Strings.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "GitHubCLI_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "githubcli",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/BaseCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ExitCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/HelpCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ListFilesCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ListRepositoriesCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ListStarredReposCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/SearchUserCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ViewFileCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/APIError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubAPI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubFile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubUser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/StarredRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/Strings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules/GitHubCLI.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/BaseCommand.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ExitCommand.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/HelpCommand.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ListFilesCommand.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ListRepositoriesCommand.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ListStarredReposCommand.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/SearchUserCommand.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ViewFileCommand.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Core/APIError.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Core/GitHubAPI.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Core/GitHubService.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/GitHubFile.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/GitHubRepository.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/GitHubUser.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/StarredRepository.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Utils/Strings.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/main.swift"
+      ],
+      "tempsPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GitHubCLIPackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/bin/swiftc",
+      "fileList" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/sources",
+      "importPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/GitHubCLITests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/swift-version-24593BA9C3E375BF.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules/GitHubCLITests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GitHubCLIPackageDiscoveredTests",
+      "moduleOutputPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules/GitHubCLIPackageDiscoveredTests.swiftmodule",
+      "objects" : [
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/GitHubCLITests.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "githubcli",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/GitHubCLITests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules/GitHubCLIPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/GitHubCLITests.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/all-discovered-tests.swift"
+      ],
+      "tempsPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GitHubCLIPackageTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/bin/swiftc",
+      "fileList" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.build/sources",
+      "importPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/swift-version-24593BA9C3E375BF.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules/GitHubCLITests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules/GitHubCLIPackageDiscoveredTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GitHubCLIPackageTests",
+      "moduleOutputPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules/GitHubCLIPackageTests.swiftmodule",
+      "objects" : [
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "githubcli",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules/GitHubCLIPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GitHubCLITests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/bin/swiftc",
+      "fileList" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/sources",
+      "importPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Tests/GitHubCLITests/CommandTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Tests/GitHubCLITests/GitHubAPITests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/swift-version-24593BA9C3E375BF.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GitHubCLITests",
+      "moduleOutputPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules/GitHubCLITests.swiftmodule",
+      "objects" : [
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/CommandTests.swift.o",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/GitHubAPITests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "githubcli",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/CommandTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/GitHubAPITests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules/GitHubCLITests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Tests/GitHubCLITests/CommandTests.swift",
+        "/workspaces/swift-3/.devcontainer/GitHubCLI/Tests/GitHubCLITests/GitHubAPITests.swift"
+      ],
+      "tempsPath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "GitHubCLI" : [
+      "/usr/bin/swiftc",
+      "-module-name",
+      "GitHubCLI",
+      "-package-name",
+      "githubcli",
+      "-incremental",
+      "-c",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/BaseCommand.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ExitCommand.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/HelpCommand.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ListFilesCommand.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ListRepositoriesCommand.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ListStarredReposCommand.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/SearchUserCommand.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ViewFileCommand.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Core/APIError.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Core/GitHubAPI.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Core/GitHubService.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/GitHubFile.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/GitHubRepository.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/GitHubUser.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/StarredRepository.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Utils/Strings.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/main.swift",
+      "-I",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "GitHubCLI_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "githubcli",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/bin/swiftc"
+    ],
+    "GitHubCLIPackageDiscoveredTests" : [
+      "/usr/bin/swiftc",
+      "-module-name",
+      "GitHubCLIPackageDiscoveredTests",
+      "-package-name",
+      "githubcli",
+      "-incremental",
+      "-c",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/GitHubCLITests.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/all-discovered-tests.swift",
+      "-I",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "githubcli",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/bin/swiftc"
+    ],
+    "GitHubCLIPackageTests" : [
+      "/usr/bin/swiftc",
+      "-module-name",
+      "GitHubCLIPackageTests",
+      "-package-name",
+      "githubcli",
+      "-incremental",
+      "-c",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.derived/runner.swift",
+      "-I",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "githubcli",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/bin/swiftc"
+    ],
+    "GitHubCLITests" : [
+      "/usr/bin/swiftc",
+      "-module-name",
+      "GitHubCLITests",
+      "-package-name",
+      "githubcli",
+      "-incremental",
+      "-c",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Tests/GitHubCLITests/CommandTests.swift",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/Tests/GitHubCLITests/GitHubAPITests.swift",
+      "-I",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "githubcli",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "GitHubCLI" : [
+
+    ],
+    "GitHubCLIPackageDiscoveredTests" : [
+      "GitHubCLITests",
+      "GitHubCLI"
+    ],
+    "GitHubCLIPackageTests" : [
+      "GitHubCLIPackageDiscoveredTests",
+      "GitHubCLITests",
+      "GitHubCLI"
+    ],
+    "GitHubCLITests" : [
+      "GitHubCLI"
+    ]
+  },
+  "testDiscoveryCommands" : {
+    "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/all-discovered-tests.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/CommandTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/GitHubAPITests.swift.o"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/GitHubCLITests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ]
+    }
+  },
+  "testEntryPointCommands" : {
+    "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.derived/runner.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/Modules/GitHubCLIPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "writeCommands" : {
+    "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/BaseCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ExitCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/HelpCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ListFilesCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ListRepositoriesCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ListStarredReposCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/SearchUserCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Commands/ViewFileCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Core/APIError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Core/GitHubAPI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Core/GitHubService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/GitHubFile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/GitHubRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/GitHubUser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Models/StarredRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/Utils/Strings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Sources/GitHubCLI/main.swift"
+        }
+      ],
+      "outputFilePath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/sources"
+    },
+    "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/APIError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/BaseCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ExitCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubAPI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubCLI.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubFile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubUser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/HelpCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ListFilesCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ListRepositoriesCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ListStarredReposCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/SearchUserCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/StarredRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/Strings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ViewFileCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.product/Objects.LinkFileList"
+    },
+    "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/GitHubCLITests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ],
+      "outputFilePath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/sources"
+    },
+    "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.build/sources"
+    },
+    "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/APIError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/BaseCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ExitCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubAPI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubCLI.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubFile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/GitHubUser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/HelpCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ListFilesCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ListRepositoriesCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ListStarredReposCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/SearchUserCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/StarredRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/Strings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/ViewFileCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLI.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/GitHubCLIPackageDiscoveredTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/GitHubCLITests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.build/GitHubCLIPackageTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/CommandTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/GitHubAPITests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/GitHubCLITests.swiftmodule.o"
+        }
+      ],
+      "outputFilePath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageTests.product/Objects.LinkFileList"
+    },
+    "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Tests/GitHubCLITests/CommandTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/swift-3/.devcontainer/GitHubCLI/Tests/GitHubCLITests/GitHubAPITests.swift"
+        }
+      ],
+      "outputFilePath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLITests.build/sources"
+    },
+    "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/swift-version-24593BA9C3E375BF.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/swift-version-24593BA9C3E375BF.txt"
+    }
+  }
+}

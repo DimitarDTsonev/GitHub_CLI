@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/master.swiftdeps"
+  },
+  "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/GitHubCLITests.swift": {
+    "dependencies": "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/GitHubCLITests.d",
+    "object": "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/GitHubCLITests.swift.o",
+    "swiftmodule": "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/GitHubCLITests~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/GitHubCLITests.swiftdeps"
+  },
+  "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.derived/all-discovered-tests.swift": {
+    "dependencies": "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/all-discovered-tests.d",
+    "object": "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/all-discovered-tests.swift.o",
+    "swiftmodule": "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/all-discovered-tests~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/swift-3/.devcontainer/GitHubCLI/.build/x86_64-unknown-linux-gnu/debug/GitHubCLIPackageDiscoveredTests.build/all-discovered-tests.swiftdeps"
+  }
+}
