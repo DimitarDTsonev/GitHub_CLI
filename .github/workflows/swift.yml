@@ -21,8 +21,11 @@ jobs:
       - name: Show Project Structure (Debugging)
         run: ls -R
 
+      - name: Navigate to Correct Directory
+        run: cd GitHubCLI && ls -la
+      
       - name: Build Swift Package
-        run: swift build --configuration release
+        run: cd GitHubCLI && swift build --configuration release
 
       - name: Run Tests
-        run: swift test
+        run: cd GitHubCLI && swift test
