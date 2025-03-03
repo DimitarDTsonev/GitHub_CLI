@@ -81,4 +81,4 @@ swift run
 
 ![view-file](https://github.com/user-attachments/assets/6bfa1ea8-f5ac-4925-8fc4-d2528964c04b)
 
-#### ***Note, the path of the file you want to see is without the name of the repository.***
+#### *** *Note, the path of the file you want to see is without the name of the repository.***
