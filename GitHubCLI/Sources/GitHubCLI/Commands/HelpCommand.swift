@@ -5,12 +5,13 @@ struct HelpCommand {
         print("""
 
         Available commands:
-        - search-user <username>
-        - list-repos <username>
-        - sort-repos <username>
-        - list-files <username> <repo>
-        - list-starred <username>
-        - view-file <username> <repo> <file_path>
+        - search-user   <username>
+        - list-repos    <username>
+        - sort-repos    <username>
+        - total-stars   <username>
+        - list-files    <username> <repo>
+        - list-starred  <username>
+        - view-file     <username> <repo> <file_path>
         - help
         - exit
         

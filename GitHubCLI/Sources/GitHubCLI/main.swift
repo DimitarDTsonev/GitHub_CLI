@@ -19,6 +19,9 @@ while true {
     case "sort-repos":
         if input.count > 1 { await SortRepositoriesCommand.execute(username: input[1]) }
         else { print("❌ Usage: sort-repos <username>") }
+    case "total-stars":
+        if input.count > 1 { await TotalStarsCommand.execute(username: input[1]) }
+        else { print("❌ Usage: total-stars <username>") }
     case "list-starred":
         if input.count > 1 { await ListStarredReposCommand.execute(username: input[1]) }
         else { print("❌ Usage: list-starred <username>") }

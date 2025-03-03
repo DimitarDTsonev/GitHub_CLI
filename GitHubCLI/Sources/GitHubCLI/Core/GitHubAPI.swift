@@ -57,4 +57,9 @@ actor GitHubAPI: GitHubService {
             throw APIError.unexpectedStatus(httpResponse.statusCode)
         }
     }
+
+    func fetchTotalStars(username: String) async throws -> Int {
+        let repos = try await fetchRepositories(username: username)
+        return repos.reduce(0) { $0 + $1.stargazersCount }
+    }
 }

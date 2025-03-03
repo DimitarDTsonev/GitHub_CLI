@@ -42,4 +42,10 @@ final class CommandTests: XCTestCase {
         XCTAssertFalse(starredRepos.isEmpty, "❌ User should have starred repositories")
         XCTAssertGreaterThan(starredRepos.first!.stargazersCount, 0, "❌ First starred repo should have stars")
     }
+
+    func testTotalStarsCommand() async throws {
+        let totalStars = try await GitHubAPI.shared.fetchTotalStars(username: "DimitarDTsonev")
+
+        XCTAssertGreaterThanOrEqual(totalStars, 0, "❌ Total stars should be at least 0")
+    }
 }
