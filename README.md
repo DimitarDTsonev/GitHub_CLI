@@ -52,7 +52,9 @@ swift run
 
 ### **search-user <username>**
 
+
 ![search-user](https://github.com/user-attachments/assets/4fc23f07-454e-4bda-981c-d5c810a48299)
+
 
 
 ### **list-repos <username>**
