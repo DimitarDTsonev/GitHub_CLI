@@ -51,24 +51,32 @@ swift run
 ## **Output of the functions**
 
 ### **search-user <username>**
+
 ![search-user](https://github.com/user-attachments/assets/4fc23f07-454e-4bda-981c-d5c810a48299)
 
+
 ### **list-repos <username>**
+
 ![list-repos](https://github.com/user-attachments/assets/f81ec37a-42cf-461c-9310-863695489de5)
 
 ### **sort-repos <username>**
+
 ![sorted-repos](https://github.com/user-attachments/assets/0b37042d-2e81-4c3b-ae0c-f85c6864af06)
 
 ### **total-stars <username>**
+
 ![total-stars](https://github.com/user-attachments/assets/376d07dd-11f7-4be5-9035-d9d399cc2c6f)
 
 ### **list-file <username> <repo>**
+
 ![list-files](https://github.com/user-attachments/assets/3d79f154-7f6c-4449-8569-153846ed0adf)
 
 ### **list-starred <username>**
+
 ![list-starred](https://github.com/user-attachments/assets/c6c3eb16-9751-4e96-a9c7-61ba964b91a8)
 
 ### **view-file <username> <repo> <path>**
+
 ![view-file](https://github.com/user-attachments/assets/6bfa1ea8-f5ac-4925-8fc4-d2528964c04b)
 
 #### ***Note, the path of the file you want to see is without the name of the repository.***
