@@ -1,4 +1,4 @@
-### **🚀 GitHub CLI - A Command Line Interface for GitHub**
+### ***🚀 GitHub CLI - A Command Line Interface for GitHub***
 
 GitHub CLI is a **Swift-based command-line application** that allows users to interact with GitHub repositories, fetch user details, view starred repositories, and read file contents from repositories.
 
