@@ -31,6 +31,7 @@ swift build
 ```sh
 swift run
 ```
+---
 
 ### **🛠 Available Commands**
 | Command | Description | Example |
@@ -45,5 +46,5 @@ swift run
 | `help` | Show available commands | `help` |
 | `exit` | Exit the program | `exit` |
 
-
+---
 
