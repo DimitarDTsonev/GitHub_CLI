@@ -33,7 +33,7 @@ swift run
 ```
 ---
 
-### **🛠 Available Commands**
+## **🛠 Available Commands**
 | Command | Description | Example |
 |---------|------------|---------|
 | `search-user <username>` | Fetch GitHub user details | `search-user DimitarDTsonev` |
@@ -48,3 +48,7 @@ swift run
 
 ---
 
+## ** Output of the functions**
+
+### **search-user**
+![search-user](https://github.com/user-attachments/assets/4fc23f07-454e-4bda-981c-d5c810a48299)
