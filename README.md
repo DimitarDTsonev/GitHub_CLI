@@ -20,7 +20,7 @@ To install and run this project, follow these steps:
 ### **1️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/DimitarDTsonev/GitHub_CLI.git
-cd GitHub_CLI
+cd ./GitHub_CLI
 ```
 ### **2️⃣ Build the Project**
 ```sh
